@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="somavaloresinput.html">Soma valores inputs</a>
+                </li>
+                <li>
+                    <a href="somaautomaticainput.html">Soma automática alterar inputs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="corpo">
+        <section>
+            <!-- <form class="formulario" action="">-->
+                <div>
+                    <label for="valorUm">Valor 1:</label>
+                    <input id="numberUm" type="number" placeholder="0" >
+                </div>
+                <div>
+                    <label for="valorDois">Valor 2:</label>
+                    <input id="numberDois" type="number" placeholder="0" >
+                </div>
+                <div>                        
+                    <label for="valorTres">Valor 3:</label>
+                    <input id="numberTres" type="number" placeholder="0" >
+                </div>
+                <div>
+                    <button id="somar" type="submit" onclick="somarValoresInputs()">SOMAR</button>
+                </div>
+                <div>
+                    <label for="resultado">Resultado:</label >
+                    <input  id="resultado" type="text" placeholder="0">
+                </div>
+            <!--</form>-->
+        </section>
+    </main>
+    
+</body>
+</html>
