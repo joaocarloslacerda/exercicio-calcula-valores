@@ -5,3 +5,22 @@ function somarValoresInputs(){
 
     document.getElementById("resultado").value = inputNumberUm + inputNumberDois + inputNumberTres
 }
+
+function concatenacao(){
+
+    let pessoa = {
+        nome: document.getElementById("firstname").value,
+        sobrenome: document.getElementById("surname").value,
+        anoNascimento: document.getElementById("yearBirth").value,
+        concatena: function() {
+            concatenarNomes(pessoa.nome, pessoa.sobrenome, pessoa.anoNascimento)
+        }
+    }   
+    pessoa.concatenaNomesPessoa()
+}
+
+function concatenarNomes(nome, sobrenome, anoNascimento){
+    let dadosPessoa = nome + ' ' + sobrenome + ', ano nascimento ' + anoNascimento
+    
+    document.getElementById("resultado").value = dadosPessoa
+}
