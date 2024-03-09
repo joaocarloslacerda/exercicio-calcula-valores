@@ -20,7 +20,7 @@ function concatenacao(){
 }
 
 function concatenarNomes(nome, sobrenome, anoNascimento){
-    let dadosPessoa = nome + ' ' + sobrenome + ', ano nascimento ' + anoNascimento
+    let dadosPessoa = nome + ' ' + sobrenome + ', ano de nascimento ' + anoNascimento
     
     document.getElementById("buttonResultado").value = dadosPessoa
 }
