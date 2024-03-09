@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleConcatenarNomes.css">
     <script type="text/javascript" src="script.js"></script>
 
     <title>Concatenar Nomes</title>
@@ -44,11 +45,11 @@
                 <label for="yearBirth">Ano nascimento:</label>
                 <input type="text" id="yearBirth">
             </div>
-            <div>
-                <button id="concatenar" type="submit" onclick="concatenacao()">Concatenar</button>
+            <div class="concatenar">
+                <button id="buttonConcatenar" type="submit" onclick="concatenacao()">Concatenar</button>
             </div>
-            <div>
-                <input type="text" id="resultado">
+            <div class="resultado">
+                <input id="buttonResultado" type="text">
             </div>
         </section>
     </main>

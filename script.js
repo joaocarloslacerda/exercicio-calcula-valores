@@ -22,5 +22,5 @@ function concatenacao(){
 function concatenarNomes(nome, sobrenome, anoNascimento){
     let dadosPessoa = nome + ' ' + sobrenome + ', ano nascimento ' + anoNascimento
     
-    document.getElementById("resultado").value = dadosPessoa
+    document.getElementById("buttonResultado").value = dadosPessoa
 }
