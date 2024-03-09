@@ -9,14 +9,14 @@ function somarValoresInputs(){
 function concatenacao(){
 
     let pessoa = {
-        nome: document.getElementById("firstname").value,
+        nome: document.getElementById("firstName").value,
         sobrenome: document.getElementById("surname").value,
         anoNascimento: document.getElementById("yearBirth").value,
         concatena: function() {
             concatenarNomes(pessoa.nome, pessoa.sobrenome, pessoa.anoNascimento)
         }
     }   
-    pessoa.concatenaNomesPessoa()
+    pessoa.concatena()
 }
 
 function concatenarNomes(nome, sobrenome, anoNascimento){
